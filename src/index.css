@@ -1,0 +1,36 @@
+.counter-container{
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.counter-display{
+    font-size:75px;
+    margin-top: 0;
+    margin-bottom:30;
+}
+.counter-button{
+    font-size: 30px;
+    font-weight:800;
+    margin:0 10px;
+    color: rgba(0, 0, 0, 0.618);
+    background-color: rgb(48, 209, 209);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.counter-button:hover
+{
+    background-color: rgb(159, 229, 229);
+}
+.counter-change
+{
+    margin-top: 40px;
+    background-color: rgb(142, 225, 229);
+    width:  auto;
+    border-radius:5px;
+    color:rgb(17, 1, 12);
+}
+.counter-change:hover
+{
+    background-color: rgb(209, 198, 37); ;
+}
