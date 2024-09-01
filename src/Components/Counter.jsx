@@ -2,14 +2,14 @@ import React, { useState } from 'react'
 
 export default function Counter() {
     const [count,setCount]=useState(0);
-    const [change,setChange]=useState(0);
+    const [change,setChange]=useState(1);
     const decrementHandler=()=>{
             setCount(count-change);
         }
     const resetHandler =()=>
     {
         setCount(0);
-        setChange(0);
+        setChange(1);
     }
     const incrementHandler =()=>
     {
